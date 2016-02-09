@@ -23,7 +23,6 @@ html, body { margin: 0;}
 	margin: 0 auto;
 	width: 588px;
 }
-
 .keyboard-key {
 	color: #000;
 	cursor: pointer;
@@ -73,7 +72,6 @@ html, body { margin: 0;}
 	box-shadow: inset 0 1px #F7F7FC, 0 1px 1px #000;
 	top: 1px;
 }
-
 .keyboard-held .keyboard-alt { display: block; }
 .keyboard-alt {
 	bottom: 40px;
@@ -108,7 +106,6 @@ html, body { margin: 0;}
 	padding: 12px;
 	text-shadow: 0 1px #FFF;
 }
-
 /* Special keys */
 .keyboard-key-space { width: 466px; }
 .keyboard-key-tab { padding-right: 36px; }
