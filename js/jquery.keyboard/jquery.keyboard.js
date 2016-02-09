@@ -2,6 +2,8 @@
 // A boilerplate for jumpstarting jQuery plugins development
 // version 1.0, Jun 24th, 2011
 // by François Germain
+// Edited for uti.tpu.ru
+// by Sakharov Sergey
 
 (function($) {
 
@@ -91,7 +93,7 @@
 				}
 			}
 		},
-		isValidRow	= function(row) {
+		isValidRow	= function(row){
 			return	typeof row === 'number' && row === Math.round(row);
 		},
 		newKeyboard = function(newKeyboard) {

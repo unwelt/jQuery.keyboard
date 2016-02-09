@@ -39,9 +39,10 @@
 		
 		// Use
 		e.keyboard('bind', 'print', function(e, o) {
-			if(input) {
-				input.selection().replace(o.text);
-			}
+			console.log(input);
+			input.selection().replace(o.text);
+			var e = jQuery.Event("keydown");
+			$(input).trigger(e);
 		});
 		e.keyboard('bind', 'release', function(e, o) {
 			if(input !== null) {
@@ -81,7 +82,7 @@
 		});
 		
 		// Show
-		$('input[type!="submit"],textarea').live('focus', function(e) {
+		$('input[type!="submit"],textarea').on('focus', function(e) {
 			setFocus($(e.target));
 		});
 		
